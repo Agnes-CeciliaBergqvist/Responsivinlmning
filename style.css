@@ -1,0 +1,45 @@
+.header-h1 { 
+    text-align: center;
+    margin: 10px; 
+}
+
+.responsive {
+    width:100%;
+    height:auto;
+
+}
+
+.grey-box {
+    background-color:grey ;
+    height: 300px;
+    
+
+
+}
+
+.text-img {
+    position: relative;
+    text-align: center;
+
+
+}
+.centered { 
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+
+}
+
+.bottom-left { 
+    position: absolute;
+    bottom:100px;
+    left:16px;
+    z-index: ;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom:105px;
+    left:300px; 
+}
