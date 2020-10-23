@@ -5,6 +5,7 @@
     
 }
 
+
 body { 
     font-family: 'PT Sans', sans-serif;
     color: rgb(68, 70, 75);
@@ -64,6 +65,31 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.flex-box1 {
+    display:flex;
+    flex-direction: row-reverse;
+    height: 500px; 
+    align-items: center;
+    
+}
+.headline { 
+    display: flex; 
+    text-align: right;
+    margin-left: 200px;
+
+}
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom:20px;
+}
+
+.youtubability { 
+    margin-bottom: 30px;
+}
+.text-flex1 { 
+    margin-left: 160px;
+}
 
 .flex-box2{
     display:flex; 
