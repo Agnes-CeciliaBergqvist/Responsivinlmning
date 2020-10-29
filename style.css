@@ -14,22 +14,34 @@ header {
 }
 
 .headline { 
-    display: flex; 
-    justify-content: center;
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px; 
+    margin-top: 10px;
+    padding-bottom: 10px;
+
+
+
    
 }
 .headline-content {
-    display:flex;
-    max-width: 700px;
-    margin:0 auto;
-    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    padding-bottom: 50px;
+    transform: translate(-50%, -50%);
+    font-size: 4vw;
+    color: #494949;
     
 }
 .first-text {
    
-    font-size: 1.2rem;
-    font-weight: 100;
-    
+    position: absolute;
+ right: 25%;
+ font-size: 1.5vw;
+ color: #494949;
+ font-weight: 100;
+ line-height: 1.5; 
+ text-align: right;
 
 }
 
@@ -43,7 +55,7 @@ h2 {
 h4 {
     font-size: 30px;
     margin-bottom: 20px;
-    font-weight: 100; 
+    /*font-weight: 100; */
 }
 
 body { 
@@ -70,7 +82,7 @@ body {
 }
 
 
-.text-img {
+.tip {
     position: relative;
     text-align: center;
     
@@ -140,18 +152,28 @@ body {
 }
 
 .flex-box2{
+   
     display:flex; 
     flex-direction: row;
     height: 500px;
     align-items: center;
     text-align: right;
+    max-width: 925px;
+   
+   
 
+}
+.img-left {
+    padding-left: 4rem;
 }
 
 .text-flex2 {
     padding-right: 100px;
+   
+
     
 }
+
 
 .centered-text{
     text-align: left;
@@ -170,19 +192,49 @@ body {
     p {
         font-size: 0.8rem;}
         
-    .text-flex1 {
-        font-size: 0.8rem;}
+    /*första sektionen*/
     .headline {
         text-align: left;
         margin-bottom: 7rem;}
-    .centered{
-        font-size: 0.6rem;}
-    .flex-box1 {
-        flex-direction: column-reverse;}
-    .content{
-        padding: 40px 1rem;}
-
 
     
+    .content{
+        padding: 40px 1rem;
+        font-size: 1.2rem;}
+
+    .flex-box1 {
+        flex-direction: column-reverse;
+        font-size: 1.2rem;}
+    
+    .img-right { 
+        padding: 5rem 0; 
+    }
+    .flex-box2 {
+        flex-direction: column;
+        padding: 1rem 1rem 1rem 1rem;
+        align-content: flex-start;
+        height: auto;
+     
+    }
+
+    .text-flex2 {
+      font-size: 1.2rem;
+      padding: 4rem 4rem 4rem 4rem;}
+      
+
+    .centered-text {
+        padding: 2rem 2rem 2rem 2rem;
+        font-size: 1.2rem;
+    }
+
+
+    /*footer blå*/
+    .centered  >h4, p {
+        font-size: 1.2rem;
+       }
+
+    .h4 {
+        font-size: 0.3rem;
+    }
 
 }
