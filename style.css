@@ -31,17 +31,19 @@ header {
     transform: translate(-50%, -50%);
     font-size: 4vw;
     color: #494949;
+   
+
     
 }
 .first-text {
    
     position: absolute;
- right: 25%;
- font-size: 1.5vw;
- color: #494949;
- font-weight: 100;
- line-height: 1.5; 
- text-align: right;
+    right: 25%;
+    font-size: 1.5vw;
+    color: #494949;
+    font-weight: 100;
+    line-height: 1.5; 
+    text-align: right;
 
 }
 
@@ -67,7 +69,9 @@ body {
 
 .header-h1 { 
     text-align: center;
-    margin-top: 0px; 
+    margin-top: 2rem; 
+    font-weight: 900;
+    
 }
 
 .responsive {
@@ -177,8 +181,10 @@ body {
 
 .centered-text{
     text-align: left;
-    padding-left: 130px;
-    padding-right: 100px;
+    padding-left: 320px;
+    padding-right: 295px;
+
+    
     
 }
 
@@ -188,23 +194,64 @@ body {
 }
 
  /*tablet=767, 479 mobile, 980 ipad, 1440 mac/PC*/
-@media (max-width: 767px) {
-    p {
-        font-size: 0.8rem;}
-        
+
+/* Iphone */
+@media (max-width: 375px){
+    .bottom-right{
+        padding-left: 4.7rem;
+        padding-top: 2.8rem;
+    }
+    .h5 {
+        font-size: 40rem;
+    }
+    .content { 
+        margin-left: 5rem; 
+    }
+    .centered p {
+        font-size: 0.8rem;
+        width: 80vw;
+    }
+    .responsive { 
+        width: 100%; 
+        height: 13rem; 
+    }
+    .text-flex2 { 
+        font-size: 1.2rem;
+        padding: 2rem 2rem 2rem 2rem; 
+    }
+    .flex-box1 p { 
+        width: 90%; 
+        margin: auto; 
+        margin-right: 2rem;
+
+    }
+    .headline-content{
+        font-size: 1.3rem; 
+    }
+
+
+}
+ /*ipad*/
+@media (max-width: 768px) {
+  
     /*första sektionen*/
     .headline {
         text-align: left;
         margin-bottom: 7rem;}
 
-    
+    .first-text {
+        font-size: 0.9rem;
+        margin-left: -4rem;
+        margin-right: -4rem;
+    }
     .content{
-        padding: 40px 1rem;
+        padding: 0rem 1rem 2rem 0rem;
         font-size: 1.2rem;}
 
     .flex-box1 {
         flex-direction: column-reverse;
-        font-size: 1.2rem;}
+        font-size: 1.2rem;
+        justify-content: center;}
     
     .img-right { 
         padding: 5rem 0; 
@@ -219,7 +266,7 @@ body {
 
     .text-flex2 {
       font-size: 1.2rem;
-      padding: 4rem 4rem 4rem 4rem;}
+      padding: 2rem 2rem 2rem 2rem;}
       
 
     .centered-text {
@@ -227,14 +274,58 @@ body {
         font-size: 1.2rem;
     }
 
-
     /*footer blå*/
     .centered  >h4, p {
         font-size: 1.2rem;
        }
-
+    .centered p {
+        font-size: 0.8rem;}
+        
+       /*tipoftheweek*/
     .h4 {
         font-size: 0.3rem;
+    }
+
+}
+
+}
+
+@media (min-width: 1020px) { 
+    .flex-box2 {
+        margin-left: 2rem; 
+    }
+
+}
+@media (min-width:1440px) {
+
+    .text-flex2 { 
+        margin-left: 2rem; 
+    }
+    .flex-box2 {
+        margin-left: 12rem;
+        font-size: 1.2rem; 
+    }
+    .centered-text {
+        font-size: 1.2rem;
+        padding-left: 320px;
+        padding-right: 295px;
+
+    }
+    .content{ 
+        font-size: 1.2rem;
+
+    }
+    .headline-content{
+        margin-left: 9rem;
+    }
+    .header-h1{
+        font-size: 6rem;
+    }
+    .tip { 
+        font-size: 1.8rem;
+    }
+    .h4 { 
+        font-size: 3rem;
     }
 
 }
