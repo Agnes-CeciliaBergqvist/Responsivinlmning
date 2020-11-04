@@ -1,0 +1,24 @@
+{
+  "name": "Responsiv-inl-mning-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass sass/main.scss style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agnusburger/Responsiv-inl-mning-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Agnusburger/Responsiv-inl-mning-/issues"
+  },
+  "homepage": "https://github.com/Agnusburger/Responsiv-inl-mning-#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {}
+}

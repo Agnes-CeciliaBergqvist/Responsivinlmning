@@ -1,0 +1,55 @@
+.youtubability { 
+    margin-bottom: 30px;
+  }
+
+
+.flex-box1 {
+   
+    
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+  
+  
+  
+  }
+  
+  .flex-box1 p {
+    width: 100%;
+  }
+  .text-flex2 {
+    padding-right: 100px;
+   
+  
+    
+  }
+  
+  
+  .centered-text{
+    text-align: left;
+    padding-left: 320px;
+    padding-right: 295px;
+  
+    
+    
+  }
+
+  .content {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 150px 0 80px;
+  
+  }
+  
+  .flex-box2{
+   
+    display:flex; 
+    flex-direction: row;
+    height: 500px;
+    align-items: center;
+    text-align: right;
+    max-width: 925px;
+   
+   
+  
+  }

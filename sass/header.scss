@@ -1,0 +1,53 @@
+
+
+
+  header {
+    background-image: url(pictures/header.png.png);
+    background-position: center; 
+    background-size: cover;
+    background-repeat: repeat;
+    width: auto;
+    height: 60vw;
+  }
+  
+  .headline { 
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px; 
+    margin-top: 10px;
+    padding-bottom: 10px;
+  
+  
+  
+   
+  }
+
+    
+  .header-h1 { 
+    text-align: center;
+    margin-top: 2rem; 
+    font-weight: 900;
+    
+  }
+  .headline-content {
+    position: absolute;
+    left: 50%;
+    padding-bottom: 50px;
+    transform: translate(-50%, -50%);
+    font-size: 4vw;
+    color: #494949;
+   
+  
+    
+  }
+  .first-text {
+   
+    position: absolute;
+    right: 25%;
+    font-size: 1.5vw;
+    color: #494949;
+    font-weight: 100;
+    line-height: 1.5; 
+    text-align: right;
+  
+  }

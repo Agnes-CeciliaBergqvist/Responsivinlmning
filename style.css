@@ -137,7 +137,8 @@ header {
 .img-left {
   padding-left: 4rem; }
 
-@media (max-width: 375) {
+/*iphone*/
+@media (max-width: 375px) {
   .centered p {
     font-size: 1rem; }
   h4 {
@@ -182,8 +183,7 @@ header {
   .centered > h4, p {
     font-size: 1.2rem; }
   .centered p {
-    font-size: 1.2rem;
-    font-size: auto; }
+    font-size: 1.2rem; }
   /*tipoftheweek*/
   .h4 {
     font-size: 0.3rem;

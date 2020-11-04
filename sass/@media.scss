@@ -1,0 +1,168 @@
+/*iphone*/
+@media (max-width:375px){
+    .centered p{
+      font-size: 1rem;
+    }
+    h4 {
+      margin-bottom: 1px;
+      
+    }
+  }
+  
+  /*ipad*/
+  @media (max-width: 768px) {
+  
+    /*första sektionen*/
+    .headline {
+        text-align: left;
+        margin-bottom: 7rem;}
+  
+    .first-text {
+        font-size: 0.9rem;
+        margin-left: -4rem;
+        margin-right: -4rem;
+    }
+    .content{
+        padding: 0rem 1rem 2rem 0rem;
+        font-size: 1.2rem;
+      }
+      
+    .youtubability {
+          text-align: center; 
+          margin-left: auto;
+      }
+    
+  
+    .flex-box1 {
+        flex-direction: column-reverse;
+        font-size: 1.2rem;
+        justify-content: center;}
+    
+    .img-right { 
+        padding: 5rem 0 0; 
+        text-align: center;
+        width: 100%;
+    }
+    .flex-box2 {
+        flex-direction: column;
+        padding: 1rem 1rem 1rem 1rem;
+        align-content: flex-start;
+        height: auto;
+     
+    }
+  
+    .text-flex2 {
+      font-size: 1.2rem;
+      padding: 2rem 2rem 2rem 2rem;}
+      
+  
+    .centered-text {
+        padding: 2rem 2rem 2rem 2rem;
+        font-size: 1.2rem;
+    }
+  
+    /*footer blå*/
+    .centered  >h4, p {
+        font-size: 1.2rem;
+       }
+    .centered p {
+        font-size: 1.2rem;
+        
+        }
+        
+       /*tipoftheweek*/
+    .h4 {
+        font-size: 0.3rem;
+        margin-bottom: 0;
+        
+  
+    }
+    .bottom-right {
+      margin-top: -1rem;
+  
+    }
+  
+  }
+  
+  
+  
+  @media (min-width: 1020px) { 
+    .flex-box2 {
+        margin-left: 2rem; 
+    }
+    .bottom-right {
+      margin-top: -1rem;
+    }
+  
+  
+  }
+  @media (min-width:1440px) {
+  
+    .text-flex2 { 
+        margin-left: 2rem; 
+    }
+    .flex-box2 {
+        margin-left: 18rem;
+        font-size: 1.2rem; 
+    }
+    .centered-text {
+        font-size: 1.2rem;
+        padding-left: 320px;
+        padding-right: 295px;
+  
+    }
+    .content{ 
+        font-size: 1.2rem;
+  
+    }
+    .headline-content{
+        margin-left: 9rem;
+    }
+    .header-h1{
+        font-size: 6rem;
+    }
+    .tip { 
+        font-size: 1.8rem;
+    }
+    .h4 { 
+        font-size: 3rem;
+    }
+    .bottom-right {
+      margin-top: -1rem;
+    }
+  
+  }
+  /*Iphone 6,7,8 Plus */ 
+  @media (max-width: 414px) {
+    .flex-box1{
+        padding-left: 1rem;
+  }
+    .centered {
+        width: 80%;
+  
+    }
+    .centered p {
+        font-size: 0.7rem;
+    }
+    .grey-box{
+      padding: 2rem;
+  
+    }
+    .grey-box-content{
+      display: flex;
+    }
+    .bottom-left {
+      width: 40%;
+      margin-top: 32px;
+
+  
+    }
+    .bottom-right {
+      width: 40%;
+      margin-top: -34px;
+      margin-left: 27px;
+    }
+    h4 { 
+        margin-bottom: auto;
+    }
+  }
